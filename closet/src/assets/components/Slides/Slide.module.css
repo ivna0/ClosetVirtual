@@ -1,0 +1,143 @@
+.catalogo{
+    display: block;
+    height: 2000;
+    width: 100%;
+    margin-top: 5px;
+    position: relative;
+    background-color: #D9E6EC;
+    /* position: fixed; */
+}
+
+.espaço{
+    height: 40px;
+    width: 100%;
+}
+ 
+/* BOTÕES */
+
+.um, .tres, .cinco, .sete {
+    border-radius: 10px;
+    background: #6089A7;
+    margin: 7px;
+    width: 71px;
+    height: 35px;
+    color: #D9E6EC;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-inline: 60px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.dois, .quatro, .seis{
+    border-radius: 10px;
+    background: #2A5778;
+    color: #D9E6EC;
+    width: 71px;
+    height: 35px;
+    margin-inline: 52px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.um:hover, .dois:hover, .tres:hover, .quatro:hover, .cinco:hover, .seis:hover, .sete:hover {
+    transform: translateY(-5px);
+}
+
+
+
+/* CARDS */
+
+.container{
+    width: 100%;
+    height: 780px;
+    margin-top: 50px;
+    padding: 2rem 9%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: center;
+    
+}
+
+.cards{
+    width: 250px;
+    height: 270px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border-radius: 45px 45px 0px 0px;
+    background: conic-gradient(from 180deg at 50% 50%, #09283F 0deg, #5687AA 268.1250071525574deg, #A9CBE3 360deg);
+    position: relative;
+}
+
+.cards2{
+    width: 250px;
+    height: 130px;
+    margin-top: -15px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border-radius: 0px 0px 45px 45px;
+    background: #fff;
+    position: absolute;
+    
+}
+
+.cards img{
+    width: 230px;
+    position: relative;
+    text-align: center;
+    padding-top: 2.6rem;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    z-index: 3;
+}
+
+.anuncio{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+}
+
+.baixe img{
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+    border-radius: 45px ;
+}
+
+.texts {
+    position: absolute;
+    font-size: 13px;
+    padding-left: 29px; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
+}
+
+.texts h2 {
+    color: #5687AA;
+}
+
+.texts button{
+    width: 85px;
+    height: 22px;
+    border: none;
+    border-radius: 15px;
+    background-color: #5687AA;
+    color: #fff;
+    margin-left: 55px;
+    margin-top: -5px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: all 0.3s ease;
+}
+
+.texts button:hover{
+    height: 27px;
+    font-size: 14px;
+}

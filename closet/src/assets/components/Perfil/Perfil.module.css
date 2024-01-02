@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+
+.SubMenuWrap{
+    /* position: absolute;
+    top: 100%;
+    right: 100%;
+    width: 250px; */
+    display: block;
+    height: 10vh;
+    position: relative;
+}
+
+.Submenu{
+    background: #f1f1f1;
+    width: 264px;
+    height: 55%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    margin-left: 130%;
+    margin-top: 250px;
+    z-index: 1000;
+    position: relative;
+}
+
+.Infor{
+    display: flex;
+}
+
+.Icon{
+    font-size: 47px;
+    /* margin-top: 6px; */
+    margin-left: 39%;
+    /* margin-right: 10px; */
+    color: #0b3a5b;
+}
+
+.Submenu h2{
+    font-size: 25px;
+    color: #0b3a5b;
+    margin-left: 25%;
+    font-family: 'Karla', sans-serif;
+}
+.Submenu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #0b3a5b;
+    margin: 10px 0 1px;
+    
+}
+
+.Link li{
+    display: flex;
+    list-style: none;
+    margin: 23px 0 1px;
+    /* opacity: 1; */
+   
+}
+
+.Link ul{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Karla', sans-serif;
+    /* direction:rtl; */
+    margin-left: 25%;
+   
+}
+
+.Link a:hover{
+    background: #6f8ca2;
+    border-radius: 5px;
+   }
+
+.Link a{
+    text-decoration: none;
+    color: #0b3a5b;
+}
+
+.Voltar{
+    margin-left: 25%;
+    width: 50%;
+    background: #0b3a5b;
+    color: aliceblue;
+    border: none;
+    border-radius: 20px;
+    height: 9%;
+    cursor: pointer;
+}

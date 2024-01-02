@@ -1,0 +1,14 @@
+.select{
+    display: flex;
+    justify-content: start;
+}
+
+.label{
+    display: flex;
+    justify-content: start;
+    color: #2A5778;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 3% ;
+}

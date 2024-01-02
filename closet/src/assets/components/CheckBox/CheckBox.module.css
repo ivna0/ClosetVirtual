@@ -1,0 +1,13 @@
+.lembreseMin{
+    display: flex;
+    align-items: start;
+}
+
+.Check{
+    width: 50px;
+    height: 20px;
+}
+
+.frase{
+    margin-top: 1.5%;
+}

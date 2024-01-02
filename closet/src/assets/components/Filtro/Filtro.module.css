@@ -1,0 +1,92 @@
+.containerPage{
+    display: flex;
+}
+
+.Anuncio img{
+    margin-top: 82px;
+    width: 80.95rem;
+    height: 38px;
+}
+
+.Container{
+    width: 24%;
+    height: 85em;
+    padding: 2rem 6%;
+    display: flex;
+    flex-wrap: wrap;
+    background: #FFFBFB;
+    /* position: fixed; */
+}
+
+.Container h1{
+    color: hsl(205, 50%, 28%);
+    margin-top: 18%;
+    font-size: 45px;
+
+}
+
+.h1, h2{
+    color: #244D6B;
+    margin-top: 30px;
+}
+
+.Categorias{
+    margin-top: 15px;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+}
+
+.categore{
+    display:flex ;
+    gap: .5em;
+}
+
+.produtos{
+    margin-top: 15px;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+}
+
+.produto{
+    display:flex ;
+    gap: .5em;
+}
+
+.Tamanho{
+    margin-top: 35px;
+}
+
+.tamanhos{
+    margin-top: 20px;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+}
+
+.tamanho{
+    display: flex;
+    gap: .5em;
+}
+.Preço{
+    margin-top: 35px;
+}
+
+.preços{
+    margin-top: 20px;
+}
+
+.preços button{
+    padding: 4.4px;
+    margin: 3px;
+    border: none;
+    color: #ffffff;
+    background: #6089A7;
+    border-radius: 8px;
+    cursor: pointer;
+} 
+
+.preços button:hover{
+    background: #2d4f66;
+}

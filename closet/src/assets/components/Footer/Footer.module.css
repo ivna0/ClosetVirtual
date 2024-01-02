@@ -1,0 +1,105 @@
+.footer {
+    width: 100%;
+    height: 50vh;
+    background-color: #09283F;
+ }
+
+.slogan{
+    width: 100%;
+    padding-left: 25px;
+}
+
+.slogan img {
+    margin-top: 3%;
+}
+
+ .link{
+    text-decoration: none;
+ }
+
+.container{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   padding: 3rem 3rem;
+}
+
+.socialMedia {
+   display: flex;
+   gap: 2rem;
+   margin-top: -2rem;
+   cursor: pointer;
+}
+
+.socialMedia a{
+    color: #FFFFFF;
+}
+
+.container h3{
+    font-size: 1.5em;
+    color: aliceblue;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.70rem;
+    list-style: none;
+    margin-top: -50%;
+ }
+
+.socialMedia a:hover {
+    opacity: 0.5;
+ }
+ 
+.list .link {
+    color: #6089A7;
+    transition: all 0.4s;
+ }
+
+.list .link:hover {
+    color: #374d82;
+ }
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    margin-top: -50%;
+ }
+ 
+.subscribe p {
+    color: #6089A7;
+ }
+
+.inputGroup {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+ }
+
+.inputGroup input {
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+ }
+
+.inputGroup button {
+    background-color: #6089A7;
+    border: none;
+    padding: 0px 1.25rem;
+    font-size: 1.125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+ }
+
+.copyright {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+ }
